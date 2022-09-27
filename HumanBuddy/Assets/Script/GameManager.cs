@@ -35,6 +35,8 @@ public class GameManager : MonoBehaviour
         switch (currentState)
         {
             case GameState.MAIN_MENU:
+                Time.timeScale = 0f;
+                PauseEvent?.Invoke(this, EventArgs.Empty);
                 break;
             case GameState.START:
                 break;

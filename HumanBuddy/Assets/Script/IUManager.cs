@@ -14,6 +14,7 @@ public class IUManager : MonoBehaviour
     public GameObject pausePanel;
     public GameObject personajePanel;
     public GameObject gameOverPanel;
+    public GameObject settingsPanel;
 
     public GameObject personaje1;
     public GameObject personaje2;
@@ -83,6 +84,12 @@ public class IUManager : MonoBehaviour
         pausePanel.SetActive(true);
         GameManager.Instance.ChangeState(GameState.PAUSE);
     }
+    public void ShowSettings()
+    {
+        ClearPanels();
+        ApplyAudioMixerSettings();
+        settingsPanel.SetActive(true);
+    }
     public void ShowPersonajePanel()
     {
         ClearPanels();
@@ -126,7 +133,7 @@ public class IUManager : MonoBehaviour
         pausePanel.SetActive(false);
         personajePanel.SetActive(false);
         gameOverPanel.SetActive(false);
-        //settingsPanel.SetActive(false);
+        settingsPanel.SetActive(false);
     }
 
     public void FilData()
@@ -188,7 +195,7 @@ public class IUManager : MonoBehaviour
     public void ApplyAudioMixerSettings()
     {
         float masterVolume = 0f;
-        if (audioMixer.GetFloat("MasterVolume", out masterVolume))
+        if (audioMixer.GetFloat("GeneralVolume", out masterVolume))
             masterSlider.value = masterVolume;
         if (audioMixer.GetFloat("MusicVolume", out masterVolume))
             musicSlider.value = masterVolume;
@@ -197,11 +204,11 @@ public class IUManager : MonoBehaviour
     }
     public void OnGlobalVolumeChange(float gVolume)
     {
-        audioMixer.SetFloat("MasterVolume", gVolume);
+        audioMixer.SetFloat("GeneralVolume", gVolume);
     }
     public void OnGlobalVolumeChange(int gVolume)
     {
-        audioMixer.SetFloat("MasterVolume", (float)gVolume);
+        audioMixer.SetFloat("GeneralVolume", (float)gVolume);
     }
     public void OnMusicVolumeChange(float mVolume)
     {

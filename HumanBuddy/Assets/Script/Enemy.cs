@@ -34,8 +34,8 @@ public class Enemy : MonoBehaviour
     public LayerMask layersSphereCast;
     public Transform originSphereCast;
     */
-   // public GameEvent ChaseGameEvent;
-    //public GameEvent PatrolGameEvent;
+    public GameEvent ChaseGameEvent;
+    public GameEvent PatrolGameEvent;
 
 
     // Start is called before the first frame update
@@ -116,13 +116,13 @@ public class Enemy : MonoBehaviour
     private void SetStateToPatrol()
     {
         ExecutePatrol();
-        //PatrolGameEvent.Raise();
+        PatrolGameEvent.Raise();
         OnPatrol.Invoke();
     }
     private void SetStateToChase()
     {
         ExecuteChase();
-        //ChaseGameEvent.Raise();
+        ChaseGameEvent.Raise();
         OnChase.Invoke();
     }
     private void SetStateToDamage()

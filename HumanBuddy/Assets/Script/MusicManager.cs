@@ -9,7 +9,18 @@ public class MusicManager : MonoBehaviour
     private int chaseLevel;
 
     private AudioSource musicAudioSource;
+    public static MusicManager Instance;
     // Start is called before the first frame update
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        if (Instance != null)
+            Destroy(this.gameObject);
+        else
+            Instance = this;
+
+    }
+    
     void Start()
     {
         musicAudioSource = GetComponent<AudioSource>();
