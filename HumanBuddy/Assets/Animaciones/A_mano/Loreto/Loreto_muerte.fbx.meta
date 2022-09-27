@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: 4e32b83c0b4920d43a608cda67958434
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Line006_001_Mesh_019
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BezierCircle_035_BezierCircle_015
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BezierCircle_034_BezierCircle_014
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BezierCircle_033_BezierCircle_013
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NurbsPath_052_NurbsPath_002
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NurbsPath_058_NurbsPath_039
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Loreto_muerte(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BezierCircle_031_BezierCircle_011
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.0010048568, y: 0.120998695, z: 0.014008194}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: BezierCircle_032_BezierCircle_012
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.0010048571, y: 0.1148041, z: 0.018239634}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: BezierCircle_033_BezierCircle_013
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.0009572196, y: 0.110343546, z: 0.020983791}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: BezierCircle_034_BezierCircle_014
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.0010114755, y: 0.10414612, z: 0.0207192}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: BezierCircle_035_BezierCircle_015
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.00071916817, y: 0.09928479, z: 0.020351922}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: Line006_001_Mesh_019
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.00093424984, y: 0.07939514, z: 0.011707931}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_052_NurbsPath_002
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.026696442, y: 0.10908044, z: 0.01170958}
+      rotation: {x: 0.6780793, y: -0.20052063, z: -0.6780792, w: -0.20052066}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_052_NurbsPath_003
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.027831417, y: 0.10985788, z: 0.011709572}
+      rotation: {x: -0.25171605, y: 0.6607866, z: 0.251716, w: 0.66078675}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_053_Mesh_016
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.04879266, y: 0.08704183, z: 0.011708874}
+      rotation: {x: -0.25171605, y: 0.6607866, z: 0.251716, w: 0.66078675}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_053_Mesh_017
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.043938745, y: 0.08333847, z: 0.011708893}
+      rotation: {x: 0.6780793, y: -0.20052063, z: -0.6780792, w: -0.20052066}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_054_NurbsPath_019
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.058271613, y: 0.06608548, z: 0.011708365}
+      rotation: {x: 0.6780793, y: -0.20052063, z: -0.6780792, w: -0.20052066}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_054_NurbsPath_020
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.065585695, y: 0.072172694, z: 0.011708338}
+      rotation: {x: -0.25171605, y: 0.6607866, z: 0.251716, w: 0.66078675}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_055_NurbsPath_026
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.064338244, y: 0.07017481, z: 0.011708338}
+      rotation: {x: -0.25171605, y: 0.6607866, z: 0.251716, w: 0.66078675}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_055_NurbsPath_027
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.056734473, y: 0.06430083, z: 0.011708365}
+      rotation: {x: 0.6780793, y: -0.20052063, z: -0.6780792, w: -0.20052066}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_056_NurbsPath_027
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.054720156, y: 0.06345525, z: 0.011708365}
+      rotation: {x: 0.6780793, y: -0.20052063, z: -0.6780792, w: -0.20052066}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_056_NurbsPath_028
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.0624762, y: 0.06903232, z: 0.011708338}
+      rotation: {x: -0.25171605, y: 0.6607866, z: 0.251716, w: 0.66078675}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_058_NurbsPath_039
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.052320365, y: 0.06360863, z: 0.011708254}
+      rotation: {x: 0.6780793, y: -0.20052063, z: -0.6780792, w: -0.20052066}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_058_NurbsPath_040
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.060081035, y: 0.06881848, z: 0.011708228}
+      rotation: {x: -0.25171605, y: 0.6607866, z: 0.251716, w: 0.66078675}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_059_NurbsPath_040
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.05810062, y: 0.07113308, z: 0.011708298}
+      rotation: {x: 0.6780793, y: -0.20052063, z: -0.6780792, w: -0.20052066}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_059_NurbsPath_041
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.064648025, y: 0.0771354, z: 0.011708271}
+      rotation: {x: -0.25171605, y: 0.6607866, z: 0.251716, w: 0.66078675}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_060_NurbsPath_041
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.012775272, y: 0.06330002, z: 0.01170958}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_060_NurbsPath_042
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.014784985, y: 0.06330002, z: 0.011709576}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_061_Mesh_018
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.012195353, y: 0.02672118, z: 0.011709133}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_061_Mesh_019
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.014205065, y: 0.02672118, z: 0.011709129}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_062_NurbsPath_042
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.016992671, y: 0.0050898297, z: 0.020465815}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_062_NurbsPath_043
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.019002387, y: 0.0050898297, z: 0.020465808}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_063_NurbsPath_043
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.008996429, y: 0.005090278, z: 0.024667805}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_063_NurbsPath_044
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.0069867116, y: 0.005090278, z: 0.024667809}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_064_NurbsPath_044
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.011488537, y: 0.005090278, z: 0.02389548}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_064_NurbsPath_045
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.009478818, y: 0.005090278, z: 0.023895482}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_065_NurbsPath_045
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.012138567, y: 0.0050900597, z: 0.02323373}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_065_NurbsPath_046
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.014148284, y: 0.0050900597, z: 0.023233723}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_066_NurbsPath_046
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.0146108465, y: 0.0050898297, z: 0.022186022}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: NurbsPath_066_NurbsPath_047
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.01662056, y: 0.0050898297, z: 0.022186015}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: Sphere_040_Sphere_026
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.0010048415, y: 0.1484361, z: 0.012344909}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: Sphere_041_Sphere_027
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.0010048613, y: 0.12970655, z: 0.011707931}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: Sphere_042_Sphere_036
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.0010048613, y: 0.12509689, z: 0.011707931}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: Sphere_044
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.0010048613, y: 0.09035247, z: 0.011707931}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: Sphere_046
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.0524231, y: 0.070057005, z: 0.011709588}
+      rotation: {x: 0.6780793, y: -0.20052063, z: -0.6780792, w: -0.20052066}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: Sphere_047
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.013290033, y: 0.003910444, z: 0.01310713}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: Sphere_048
+      parentName: Loreto_muerte(Clone)
+      position: {x: 0.059059296, y: 0.075365864, z: 0.011709564}
+      rotation: {x: -0.25171605, y: 0.6607866, z: 0.251716, w: 0.66078675}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    - name: Sphere_049
+      parentName: Loreto_muerte(Clone)
+      position: {x: -0.011280319, y: 0.003910444, z: 0.013107132}
+      rotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+      scale: {x: 0.380894, y: 0.380894, z: 0.380894}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
