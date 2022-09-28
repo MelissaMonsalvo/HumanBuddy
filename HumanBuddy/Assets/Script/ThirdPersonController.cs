@@ -7,7 +7,7 @@ public class ThirdPersonController : MonoBehaviour
     private Animator playeranimator;
 
     private float velocidad = 1.0F;
-    public float velocidadCorrer = 1.0F;
+    public float velocidadCorrer = 20.0F;
     public float velocidadCaminar = 1.0F;
 
     public float rotationSpeed = 100.0F;
@@ -31,6 +31,7 @@ public class ThirdPersonController : MonoBehaviour
 
     //Dialogo
     public Dialogo dialogo;
+    public PlayerProfile playerProfile;
 
 
 
@@ -48,12 +49,6 @@ public class ThirdPersonController : MonoBehaviour
     {
         currentState = playeranimator.GetCurrentAnimatorStateInfo(0);
         
-        // Movimiento
-        playeranimator.SetFloat("speed", Input.GetAxis("Vertical"));
-        playeranimator.SetFloat("direccion", Input.GetAxis("Horizontal"));
-        transform.Translate(0, 0, Input.GetAxis("Vertical") * velocidad * Time.deltaTime);
-        //rb.velocity = new Vector3 (0, 0, Input.GetAxis("Vertical") * velocidad * Time.deltaTime);
-        transform.Rotate(0, Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime, 0);
         
 
         //Correr
@@ -69,9 +64,17 @@ public class ThirdPersonController : MonoBehaviour
             velocidad = velocidadCaminar;
         }
 
+        // Movimiento
+        playeranimator.SetFloat("speed", Input.GetAxis("Vertical"));
+        playeranimator.SetFloat("direccion", Input.GetAxis("Horizontal"));
+        transform.Translate(0, 0, Input.GetAxis("Vertical") * velocidad * Time.deltaTime);
+        //rb.velocity = new Vector3 (0, 0, Input.GetAxis("Vertical") * velocidad * Time.deltaTime);
+        transform.Rotate(0, Input.GetAxis("Horizontal") * rotationSpeed * Time.deltaTime, 0);
+
+
 
         //Caer
-        
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, floorMask);
 
 
@@ -87,7 +90,7 @@ public class ThirdPersonController : MonoBehaviour
 
 
         //Unico salto
-        /*
+        
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
@@ -97,8 +100,8 @@ public class ThirdPersonController : MonoBehaviour
             transform.Translate(0, velocity.y * Time.deltaTime, 0);
 
 
-        }*/
-
+        }
+        /*
         //salto multiple
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -108,7 +111,7 @@ public class ThirdPersonController : MonoBehaviour
             transform.Translate(0, velocity.y * Time.deltaTime, 0);
 
 
-        }
+        }*/
 
 
         //Agarrar
@@ -132,6 +135,8 @@ public class ThirdPersonController : MonoBehaviour
 
     }
 
+
+
     private void OnAnimatorIK(int layerIndex)
     {
         if(grabObject)
@@ -150,10 +155,44 @@ public class ThirdPersonController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.CompareTag("boca"))
+        {
+            dialogo.StartDialogue(0);
+            playerProfile.AddOrgano(1, 0);
+            Destroy(other.gameObject);
+        }
         if (other.gameObject.CompareTag("estomago"))
         {
-            dialogo.StartDialogue(2);
+            dialogo.StartDialogue(1);
+            playerProfile.AddOrgano(1, 1);
+            Destroy(other.gameObject);
         }
+
+        if (other.gameObject.CompareTag("idelgado"))
+        {
+            dialogo.StartDialogue(2);
+            playerProfile.AddOrgano(1, 2);
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.CompareTag("igrueso"))
+        {
+            dialogo.StartDialogue(3);
+            playerProfile.AddOrgano(1, 3);
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.CompareTag("laringe"))
+        {
+            dialogo.StartDialogue(4);
+            playerProfile.AddOrgano(1, 4);
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.CompareTag("joya"))
+        {
+
+            playerProfile.GemaLevel = 1;
+            Destroy(other.gameObject);
+        }
+
     }
 
 

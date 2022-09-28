@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using UnityEngine.Audio;
 
 public class MusicManager : MonoBehaviour
 {
@@ -50,6 +51,7 @@ public class MusicManager : MonoBehaviour
             chaseLevel--;
             musicAudioSource.clip = chaseMusic[chaseLevel];
             musicAudioSource.Play();
+            
         }
         else
         {
@@ -57,6 +59,7 @@ public class MusicManager : MonoBehaviour
             {
                 musicAudioSource.clip = normalMusic;
                 musicAudioSource.Play();
+               
             }
         }
 

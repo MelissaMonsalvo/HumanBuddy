@@ -12,7 +12,8 @@ public class Organo : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            dialogo.StartDialogue(1);
+            dialogo.StartDialogue(0);
+            
         }
        
     }

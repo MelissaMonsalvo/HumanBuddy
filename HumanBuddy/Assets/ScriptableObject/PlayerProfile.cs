@@ -9,7 +9,8 @@ public class PlayerProfile : ScriptableObject
     public int organosSR;
     public bool[] oSR = new bool[] { false, false, false, false, false };
 
-    private int organosEncontrados=0;
+    //private int organosEncontrados=0;
+    public int organosEncontrados = 0;
 
     public float liveLevel=1;
 
@@ -57,7 +58,7 @@ public class PlayerProfile : ScriptableObject
              * si no
              *  GameManager.Instance.ChangeState(GameState.GAME_OVER);
              *  */
-            GameManager.Instance.ChangeState(GameState.GAME_OVER);
+            GameManager.Instance.ChangeState(GameState.QUIZ);
 
         }
     }
@@ -76,10 +77,13 @@ public class PlayerProfile : ScriptableObject
 
     public void AddOrgano(int nivel, int organo)
     {
+        organosEncontrados++;
         switch (nivel)
         {
             case 1:
                 oSD[organo] = true;
+                if (organosEncontrados>=OrganosSD)
+                    GameManager.Instance.ChangeState(GameState.WIN);
                 break;
             case 2:
                 oSR[organo] = true;
@@ -87,7 +91,9 @@ public class PlayerProfile : ScriptableObject
             default:
                 break;
         }
-        organosEncontrados++;
+        
+
+        
     }
 
 }

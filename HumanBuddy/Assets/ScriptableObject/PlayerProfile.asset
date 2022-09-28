@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: PlayerProfile
   m_EditorClassIdentifier: 
   organosSD: 5
-  oSD: 0000000000
+  oSD: 0101010101
   organosSR: 5
   oSR: 0000000000
-  liveLevel: 0.79999995
+  organosEncontrados: 8
+  liveLevel: 1
   gemaLevel: 1

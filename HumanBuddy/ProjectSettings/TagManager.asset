@@ -6,6 +6,11 @@ TagManager:
   tags:
   - estomago
   - PlayerData
+  - laringe
+  - igrueso
+  - idelgado
+  - boca
+  - joya
   layers:
   - Default
   - TransparentFX

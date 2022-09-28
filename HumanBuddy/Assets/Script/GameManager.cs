@@ -10,7 +10,9 @@ public class GameManager : MonoBehaviour
 
     public event EventHandler PauseEvent;
     public event EventHandler PlayingEvent;
+    public event EventHandler QuizEvent;
     public event EventHandler GameOverEvent;
+    public event EventHandler WinEvent;
 
     private void Awake()
     {
@@ -51,6 +53,14 @@ public class GameManager : MonoBehaviour
             case GameState.GAME_OVER:
                 GameOverEvent?.Invoke(this, EventArgs.Empty);
                 break;
+            case GameState.QUIZ:
+                Time.timeScale = 0f;
+                QuizEvent?.Invoke(this, EventArgs.Empty);
+                break;
+            case GameState.WIN:
+                Time.timeScale = 0f;
+                WinEvent?.Invoke(this, EventArgs.Empty);
+                break;
         }
     }
     private void OnPlaying()
@@ -64,5 +74,7 @@ public enum GameState
     START,
     PLAYING,
     PAUSE,
-    GAME_OVER
+    GAME_OVER,
+    QUIZ,
+    WIN
 }

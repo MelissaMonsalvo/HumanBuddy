@@ -15,6 +15,8 @@ public class IUManager : MonoBehaviour
     public GameObject personajePanel;
     public GameObject gameOverPanel;
     public GameObject settingsPanel;
+    public GameObject qnaPanel;
+    public GameObject winPanel;
 
     public GameObject personaje1;
     public GameObject personaje2;
@@ -40,6 +42,7 @@ public class IUManager : MonoBehaviour
     public PlayerProfile playerProfile;
 
     public GameObject[] organosContainer;
+    public static IUManager Instance;
 
     //private PlayerData playerData;
 
@@ -50,6 +53,9 @@ public class IUManager : MonoBehaviour
 
         // GameManager.Instance.GameOverEvent += ShowGameOver;
         GameManager.Instance.GameOverEvent += ShowGameOver;
+        GameManager.Instance.QuizEvent+= ShowQna;
+        GameManager.Instance.WinEvent += ShowWin;
+
 
 
         FilData();
@@ -70,6 +76,7 @@ public class IUManager : MonoBehaviour
         OnReduceLiveLevel();
         OnReduceGemaLevel();
         OnFindOrgans(nivelNum);
+
     }
 
     public void ShowHUD()
@@ -90,6 +97,11 @@ public class IUManager : MonoBehaviour
         ApplyAudioMixerSettings();
         settingsPanel.SetActive(true);
     }
+    public void ShowQna(object sender, EventArgs e)
+    {
+        ClearPanels();
+        qnaPanel.SetActive(true);
+    }
     public void ShowPersonajePanel()
     {
         ClearPanels();
@@ -101,6 +113,11 @@ public class IUManager : MonoBehaviour
     {
         ClearPanels();
         gameOverPanel.SetActive(true);
+    }
+    public void ShowWin(object sender, EventArgs e)
+    {
+        ClearPanels();
+        winPanel.SetActive(true);
     }
 
     public void cambioPersonaje(int opcion)
@@ -134,6 +151,8 @@ public class IUManager : MonoBehaviour
         personajePanel.SetActive(false);
         gameOverPanel.SetActive(false);
         settingsPanel.SetActive(false);
+        qnaPanel.SetActive(false);
+        winPanel.SetActive(false);
     }
 
     public void FilData()
@@ -143,12 +162,12 @@ public class IUManager : MonoBehaviour
 
     public void OnReduceLiveLevel()
     {
-        //liveBar.fillAmount = playerProfile.liveLevel;
+        
         liveBar.fillAmount = playerProfile.liveLevel;
     }
     public void OnReduceGemaLevel()
     {
-        //liveBar.fillAmount = playerProfile.liveLevel;
+        
         gemaImg.fillAmount = playerProfile.gemaLevel;
     }
 

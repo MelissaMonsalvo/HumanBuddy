@@ -50,7 +50,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -315,377 +315,377 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: Sphere_040_Sphere_026
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: Sphere_041_Sphere_027
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: Sphere_042_Sphere_036
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: BezierCircle_031_BezierCircle_011
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: BezierCircle_032_BezierCircle_012
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: BezierCircle_033_BezierCircle_013
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: BezierCircle_034_BezierCircle_014
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: BezierCircle_035_BezierCircle_015
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: Sphere_044
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_052_NurbsPath_002
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_053_Mesh_016
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: Sphere_046
       parentName: Loreto(Clone)
-      position: {x: -0.00039892425, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.015705679, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_054_NurbsPath_019
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_055_NurbsPath_026
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_056_NurbsPath_027
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_058_NurbsPath_039
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_059_NurbsPath_040
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_060_NurbsPath_041
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_061_Mesh_018
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: Sphere_047
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_062_NurbsPath_042
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_063_NurbsPath_043
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_064_NurbsPath_044
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_065_NurbsPath_045
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_066_NurbsPath_046
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: Line006_001_Mesh_019
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_052_NurbsPath_003
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_053_Mesh_017
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: Sphere_048
       parentName: Loreto(Clone)
-      position: {x: -0.00039892425, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.015705679, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_058_NurbsPath_040
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_056_NurbsPath_028
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_055_NurbsPath_027
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_054_NurbsPath_020
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_059_NurbsPath_041
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_060_NurbsPath_042
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_061_Mesh_019
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_065_NurbsPath_046
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: Sphere_049
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_062_NurbsPath_043
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_063_NurbsPath_044
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_064_NurbsPath_045
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: NurbsPath_066_NurbsPath_047
       parentName: Loreto(Clone)
-      position: {x: -0.0003719507, y: 0.0376707, z: -0.0009258807}
+      position: {x: -0.014643729, y: 1.4830985, z: -0.036451995}
       rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
       scale: {x: 0.380894, y: 0.380894, z: 0.380894}
     - name: mixamorig:Hips001
       parentName: Loreto(Clone)
-      position: {x: 0.0001897634, y: 0.01929796, z: -0.0006720157}
+      position: {x: 0.0074710003, y: 0.75976217, z: -0.026457312}
       rotation: {x: 0.000000081457245, y: 0.0000002842905, z: -0.000010871371, w: 1}
       scale: {x: 0.39370102, y: 0.39370102, z: 0.39370102}
     - name: mixamorig:RightUpLeg001
       parentName: mixamorig:Hips001
-      position: {x: 0.008363377, y: -0.00032315345, z: -0.0016209849}
+      position: {x: 0.32926682, y: -0.012722577, z: -0.063818306}
       rotation: {x: 0.000051080984, y: 0.0008193993, z: 0.9999993, w: 0.0008821828}
       scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
     - name: mixamorig:RightLeg001
       parentName: mixamorig:RightUpLeg001
-      position: {x: 0.00021866479, y: 0.01798617, z: 0.00084871176}
+      position: {x: 0.00860885, y: 0.7081169, z: 0.03341385}
       rotation: {x: -0.038077563, y: -0.00010061284, z: 0.0019498407, w: 0.9992729}
       scale: {x: 1, y: 0.9999998, z: 0.9999999}
     - name: mixamorig:RightFoot001
       parentName: mixamorig:RightLeg001
-      position: {x: 0.000022119048, y: 0.027879335, z: 0.0027526699}
+      position: {x: 0.00087082863, y: 1.0976117, z: 0.10837283}
       rotation: {x: 0.47060502, y: -0.0059974734, z: 0.0050288257, w: 0.8823093}
       scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
     - name: mixamorig:RightToeBase001
       parentName: mixamorig:RightFoot001
-      position: {x: -0.00012911417, y: 0.002667709, z: 0.0029116925}
+      position: {x: -0.005083235, y: 0.105027914, z: 0.11463356}
       rotation: {x: 0.31864947, y: -0.004682611, z: 0.0015741934, w: 0.94785976}
       scale: {x: 1.0000051, y: 1.0000023, z: 1.0000043}
     - name: mixamorig:RightToe_End001
       parentName: mixamorig:RightToeBase001
-      position: {x: 0.000049720944, y: 0.0065697865, z: 0.000038802933}
+      position: {x: 0.0019575176, y: 0.258653, z: 0.0015276745}
       rotation: {x: -0, y: -0, z: 5.820765e-10, w: 1}
       scale: {x: 1.0000025, y: 1.0000011, z: 1.0000013}
     - name: mixamorig:Spine003
       parentName: mixamorig:Hips001
-      position: {x: -0, y: 0.005827732, z: 0.00016709648}
+      position: {x: -0, y: 0.22943826, z: 0.006578602}
       rotation: {x: 0.01434345, y: -0.000000106474786, z: 0.000010874014, w: 0.9998971}
       scale: {x: 1, y: 1.0000001, z: 1.0000001}
     - name: mixamorig:Spine004
       parentName: mixamorig:Spine003
-      position: {x: -0, y: 0.0068012844, z: -1.9227267e-10}
+      position: {x: -0, y: 0.2677671, z: -0.00000000756979}
       rotation: {x: -0, y: -1.7763568e-14, z: 6.830092e-13, w: 1}
       scale: {x: 1, y: 1.0000002, z: 1.0000002}
     - name: mixamorig:Spine005
       parentName: mixamorig:Spine004
-      position: {x: -0, y: 0.0077728797, z: 1.9227267e-10}
+      position: {x: -0, y: 0.3060189, z: 0.00000000756979}
       rotation: {x: -0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1.0000002, z: 1.0000002}
     - name: mixamorig:Neck001
       parentName: mixamorig:Spine005
-      position: {x: -0, y: 0.008744493, z: 3.8454534e-10}
+      position: {x: -0, y: 0.3442714, z: 0.00000001513958}
       rotation: {x: -0.014343497, y: 6.126589e-14, z: 5.452572e-14, w: 0.9998971}
       scale: {x: 1, y: 1.0000001, z: 1.0000001}
     - name: mixamorig:Head001
       parentName: mixamorig:Neck001
-      position: {x: -0, y: 0.00689328, z: -0.0004819348}
+      position: {x: -0, y: 0.27138898, z: -0.018973812}
       rotation: {x: 3.5527137e-15, y: 1.7763568e-15, z: 8.904434e-20, w: 1}
       scale: {x: 1, y: 1.0000002, z: 1.0000002}
     - name: mixamorig:HeadTop_End001
       parentName: mixamorig:Head001
-      position: {x: -0, y: 0.021359611, z: -0.0035619289}
+      position: {x: -0, y: 0.84092957, z: -0.14023343}
       rotation: {x: 0.000000013969839, y: 0.000000021855417, z: -1.9928503e-12, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftShoulder001
       parentName: mixamorig:Spine005
-      position: {x: -0.003501283, y: 0.007696118, z: 0.00003032217}
+      position: {x: -0.13784578, y: 0.30299678, z: 0.0011937862}
       rotation: {x: 0.5690549, y: -0.42119312, z: 0.564216, w: 0.42477435}
       scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
     - name: mixamorig:LeftArm001
       parentName: mixamorig:LeftShoulder001
-      position: {x: -0.0013636362, y: 0.0063590584, z: -0.0022384722}
+      position: {x: -0.053686466, y: 0.25035664, z: -0.08812883}
       rotation: {x: 0.14127138, y: 0.001570359, z: -0.0019816759, w: -0.9899677}
       scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
     - name: mixamorig:LeftForeArm001
       parentName: mixamorig:LeftArm001
-      position: {x: -0.000036441055, y: 0.02013147, z: -0.0011332028}
+      position: {x: -0.0014346872, y: 0.79257756, z: -0.044614285}
       rotation: {x: 0.00000013411046, y: -0.00013017132, z: 0.00000006331539, w: -1}
       scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
     - name: mixamorig:LeftHand001
       parentName: mixamorig:LeftForeArm001
-      position: {x: 0.0000000061527254, y: 0.018415246, z: -0.000000012305451}
+      position: {x: 0.00000024223328, y: 0.7250097, z: -0.00000048446657}
       rotation: {x: -0.00000007356091, y: 0.37382105, z: 0.000000080805634, w: -0.9275009}
       scale: {x: 1.0000002, y: 1, z: 1.0000002}
     - name: mixamorig:LeftHandIndex005
       parentName: mixamorig:LeftHand001
-      position: {x: 0.0000000061527254, y: 0.0017773623, z: 0}
+      position: {x: 0.00000024223328, y: 0.06997489, z: 0}
       rotation: {x: 0.00000011862596, y: -0.99970233, z: -0.000000029352464, w: 0.024398202}
       scale: {x: 1.0000008, y: 1.0000013, z: 1.0000006}
     - name: mixamorig:LeftHandIndex006
       parentName: mixamorig:LeftHandIndex005
-      position: {x: -0, y: 0.0015903165, z: 0}
+      position: {x: -0, y: 0.06261089, z: 0}
       rotation: {x: -0.029740488, y: -0.00000025518239, z: -0.01618612, w: 0.99942666}
       scale: {x: 0.9999999, y: 1.0000005, z: 0.9999998}
     - name: mixamorig:LeftHandIndex007
       parentName: mixamorig:LeftHandIndex006
-      position: {x: -0.00007935785, y: 0.0024470927, z: 0.00014580728}
+      position: {x: -0.0031243248, y: 0.09634223, z: 0.005740444}
       rotation: {x: 0.06774415, y: -0.0031236364, z: 0.089296594, w: 0.99369365}
       scale: {x: 1.0000011, y: 0.9999995, z: 1.0000008}
     - name: mixamorig:LeftHandIndex008
       parentName: mixamorig:LeftHandIndex007
-      position: {x: 0.00014580728, y: 0.0009858019, z: -0.000076127675}
+      position: {x: 0.005740444, y: 0.0388111, z: -0.0029971525}
       rotation: {x: -0, y: -0, z: -0.0000000032450764, w: 1}
       scale: {x: 1.0000002, y: 1.000001, z: 0.9999994}
     - name: mixamorig:RightShoulder001
       parentName: mixamorig:Spine005
-      position: {x: 0.0035012837, y: 0.007696118, z: 0.00003032217}
+      position: {x: 0.13784581, y: 0.30299678, z: 0.0011937862}
       rotation: {x: 0.5690549, y: 0.4211955, z: -0.56420803, w: 0.4247826}
       scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
     - name: mixamorig:RightArm001
       parentName: mixamorig:RightShoulder001
-      position: {x: 0.0015774567, y: 0.0049710465, z: -0.0019950152}
+      position: {x: 0.062104594, y: 0.1957105, z: -0.07854391}
       rotation: {x: -0.14364412, y: 0.0010689497, z: -0.004463643, w: 0.98961884}
       scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
     - name: mixamorig:RightForeArm001
       parentName: mixamorig:RightArm001
-      position: {x: 0.000028515191, y: 0.02111116, z: -0.0008872907}
+      position: {x: 0.0011226453, y: 0.8311481, z: -0.034932703}
       rotation: {x: -0.000000089406946, y: -0.00004810967, z: 0.0000000038999124, w: 1}
       scale: {x: 1.0000007, y: 1.0000002, z: 1.0000001}
     - name: mixamorig:RightHand001
       parentName: mixamorig:RightForeArm001
-      position: {x: -0, y: 0.018352034, z: -0.000000006921816}
+      position: {x: -0, y: 0.722521, z: -0.00000027251244}
       rotation: {x: -0.00000018741628, y: -0.42595607, z: 0.00000018041666, w: 0.9047439}
       scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
     - name: mixamorig:RightHandIndex005
       parentName: mixamorig:RightHand001
-      position: {x: -0, y: 0.0015167729, z: -0.0000000061527254}
+      position: {x: -0, y: 0.05971547, z: -0.00000024223328}
       rotation: {x: -0.00000008182507, y: 0.00041162962, z: -0.00000012445926, w: 1}
       scale: {x: 1.0000023, y: 1.0000019, z: 1.0000038}
     - name: mixamorig:RightHandIndex006
       parentName: mixamorig:RightHandIndex005
-      position: {x: -0, y: 0.0015258021, z: 0.0000000061527254}
+      position: {x: -0, y: 0.060070947, z: 0.00000024223328}
       rotation: {x: 0.05055691, y: 0.000000072293886, z: -0.008734801, w: 0.998683}
       scale: {x: 1.0000021, y: 1.0000019, z: 1.000001}
     - name: mixamorig:RightHandIndex007
       parentName: mixamorig:RightHandIndex006
-      position: {x: -0.00004258301, y: 0.0024277363, z: -0.00024645048}
+      position: {x: -0.0016764965, y: 0.09558017, z: -0.009702775}
       rotation: {x: -0.08981491, y: -0.001926161, z: -0.0034545679, w: 0.99595064}
       scale: {x: 1.0000011, y: 1.0000011, z: 1.0000032}
     - name: mixamorig:RightHandIndex008
       parentName: mixamorig:RightHandIndex007
-      position: {x: -0.00002580453, y: 0.0010541927, z: 0.000083215615}
+      position: {x: -0.0010159264, y: 0.04150365, z: 0.0032762054}
       rotation: {x: -0, y: 0.00000011757945, z: 0.00000004444154, w: 1}
       scale: {x: 1.0000002, y: 1.0000004, z: 1}
     - name: mixamorig:LeftUpLeg001
       parentName: mixamorig:Hips001
-      position: {x: -0.0093273595, y: -0.00037904788, z: 0.00041677122}
+      position: {x: -0.36721888, y: -0.014923145, z: 0.016408315}
       rotation: {x: -0.000054029246, y: 0.003966325, z: 0.9999918, w: -0.0009040707}
       scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
     - name: mixamorig:LeftLeg001
       parentName: mixamorig:LeftUpLeg001
-      position: {x: -0.00012426966, y: 0.017726315, z: -0.0013597629}
+      position: {x: -0.004892506, y: 0.6978864, z: -0.05353397}
       rotation: {x: -0.04349557, y: 0.00010791887, z: -0.0019514456, w: 0.99905175}
       scale: {x: 1.0000002, y: 1.0000001, z: 1}
     - name: mixamorig:LeftFoot001
       parentName: mixamorig:LeftLeg001
-      position: {x: -0.00046370708, y: 0.028014198, z: 0.0028851656}
+      position: {x: -0.018256184, y: 1.1029211, z: 0.1135892}
       rotation: {x: 0.4749264, y: 0.005857452, z: -0.0050237104, w: 0.87999165}
       scale: {x: 1.0000007, y: 1.0000005, z: 1}
     - name: mixamorig:LeftToeBase001
       parentName: mixamorig:LeftFoot001
-      position: {x: 0.00012764907, y: 0.002823473, z: 0.002960906}
+      position: {x: 0.005025554, y: 0.11116035, z: 0.1165711}
       rotation: {x: 0.31625864, y: 0.00469402, z: -0.0015648617, w: 0.9486602}
       scale: {x: 1.0000051, y: 1.0000029, z: 1.0000023}
     - name: mixamorig:LeftToe_End001
       parentName: mixamorig:LeftToeBase001
-      position: {x: -0.00003390767, y: 0.005902924, z: 0.000026463256}
+      position: {x: -0.0013349477, y: 0.23239858, z: 0.0010418604}
       rotation: {x: -0, y: -9.3132246e-10, z: -2.3283062e-10, w: 1}
       scale: {x: 1.0000014, y: 1.0000004, z: 1.0000012}
     armTwist: 0.5
@@ -695,7 +695,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.254
+    globalScale: 10
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1

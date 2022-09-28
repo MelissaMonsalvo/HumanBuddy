@@ -75,7 +75,7 @@ public class Enemy : MonoBehaviour
         {
             ChangeState(EnemyState.IDLE);
         }
-        if (agent.remainingDistance < 1.2f && currentState == EnemyState.CHASE)
+        if (agent.remainingDistance < 1f && currentState == EnemyState.CHASE)
         {
             ChangeState(EnemyState.ATTACK);
             Debug.Log("Cerca");
@@ -183,7 +183,6 @@ public class Enemy : MonoBehaviour
         agent.isStopped = true;
         animator.SetTrigger("attack");
         playerProfile.ReduceLiveLevel();
-        //ValidateAttack();
         Debug.Log("Ataca");
         //animator.SetTrigger("attack");
     }
@@ -208,7 +207,7 @@ public class Enemy : MonoBehaviour
     public void ValidateAttack()
     {
         Debug.Log("Valida");
-        if ((playerTransform.position - transform.position).magnitude > 2f)
+        if ((playerTransform.position - transform.position).magnitude > 1f)
         {
             if (currentState == EnemyState.ATTACK)
                 ChangeState(EnemyState.IDLE);
