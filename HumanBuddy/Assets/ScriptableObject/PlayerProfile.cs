@@ -9,12 +9,15 @@ public class PlayerProfile : ScriptableObject
     public int organosSR;
     public bool[] oSR = new bool[] { false, false, false, false, false };
 
-    //private int organosEncontrados=0;
+   
     public int organosEncontrados = 0;
 
     public float liveLevel=1;
 
     public float gemaLevel=1;
+
+    public int level = 1;
+
     public float LiveLevel
     {
         get => liveLevel;
@@ -44,6 +47,16 @@ public class PlayerProfile : ScriptableObject
         set => organosEncontrados = value;
     }
 
+    public int Level
+    {
+        get => level;
+        set => level = value;
+    }
+
+    public void IncraseLevel()
+    {
+        level++;
+    }
     public void ReduceLiveLevel()
     {
         if (liveLevel > 0)
@@ -52,12 +65,7 @@ public class PlayerProfile : ScriptableObject
         }
         else
         {
-            //Llamar al panel de pregunta
-            /*si responde bien la pregunta
-             * sigue jugando
-             * si no
-             *  GameManager.Instance.ChangeState(GameState.GAME_OVER);
-             *  */
+
             GameManager.Instance.ChangeState(GameState.QUIZ);
 
         }
@@ -91,9 +99,7 @@ public class PlayerProfile : ScriptableObject
             default:
                 break;
         }
-        
-
-        
+     
     }
 
 }

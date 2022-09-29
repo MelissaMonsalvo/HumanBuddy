@@ -33,6 +33,7 @@ public class ThirdPersonController : MonoBehaviour
     public Dialogo dialogo;
     public PlayerProfile playerProfile;
 
+    public GameEvent saveEvent;
 
 
 
@@ -48,13 +49,19 @@ public class ThirdPersonController : MonoBehaviour
     void Update()
     {
         currentState = playeranimator.GetCurrentAnimatorStateInfo(0);
-        
-        
+
+
 
         //Correr
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKeyUp(KeyCode.Q))
         {
+            playerProfile.ReduceGemaLevel();
+        }
+
+        if (Input.GetKey(KeyCode.Q)&& playerProfile.gemaLevel>0)
+        {
+     
             playeranimator.SetTrigger("run");
             velocidad = velocidadCorrer;
         }
@@ -91,7 +98,7 @@ public class ThirdPersonController : MonoBehaviour
 
         //Unico salto
         
-
+        /*
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             playeranimator.SetTrigger("jump");
@@ -100,18 +107,19 @@ public class ThirdPersonController : MonoBehaviour
             transform.Translate(0, velocity.y * Time.deltaTime, 0);
 
 
-        }
-        /*
+        }*/
+        
         //salto multiple
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            
             playeranimator.SetTrigger("jump");
             //velocidad = velocidadCorrer;
             velocity.y = Mathf.Sqrt(3 * -2f * Gravedad);
             transform.Translate(0, velocity.y * Time.deltaTime, 0);
 
 
-        }*/
+        }
 
 
         //Agarrar
@@ -155,43 +163,47 @@ public class ThirdPersonController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("boca"))
+        if (other.gameObject.CompareTag("item"))
         {
-            dialogo.StartDialogue(0);
-            playerProfile.AddOrgano(1, 0);
+            switch (other.gameObject.name)
+            {
+                case "boca":
+                    dialogo.StartDialogue(0);
+                    playerProfile.AddOrgano(1, 0);
+                    break;
+                case "stomago":
+                    dialogo.StartDialogue(1);
+                    playerProfile.AddOrgano(1, 1);
+                    break;
+                case "laringe":
+                    dialogo.StartDialogue(2);
+                    playerProfile.AddOrgano(1, 2);
+                    break;
+                case "intestino_grueso":
+                    dialogo.StartDialogue(3);
+                    playerProfile.AddOrgano(1, 3);
+                    break;
+                case "intestino_delgado":
+                    dialogo.StartDialogue(4);
+                    playerProfile.AddOrgano(1, 4);
+                    break;
+                
+
+            }
+            saveEvent.Raise();
             Destroy(other.gameObject);
-        }
-        if (other.gameObject.CompareTag("estomago"))
-        {
-            dialogo.StartDialogue(1);
-            playerProfile.AddOrgano(1, 1);
-            Destroy(other.gameObject);
+            
         }
 
-        if (other.gameObject.CompareTag("idelgado"))
-        {
-            dialogo.StartDialogue(2);
-            playerProfile.AddOrgano(1, 2);
-            Destroy(other.gameObject);
-        }
-        if (other.gameObject.CompareTag("igrueso"))
-        {
-            dialogo.StartDialogue(3);
-            playerProfile.AddOrgano(1, 3);
-            Destroy(other.gameObject);
-        }
-        if (other.gameObject.CompareTag("laringe"))
-        {
-            dialogo.StartDialogue(4);
-            playerProfile.AddOrgano(1, 4);
-            Destroy(other.gameObject);
-        }
         if (other.gameObject.CompareTag("joya"))
         {
 
             playerProfile.GemaLevel = 1;
+            saveEvent.Raise();
             Destroy(other.gameObject);
         }
+        Debug.Log(other.gameObject.name);
+
 
     }
 

@@ -32,13 +32,6 @@ public class IUManager : MonoBehaviour
     public Image liveBar;
     public Image gemaImg;
 
-    //Sprite organos
-    /* public Sprite boca;
-     public Sprite estomago;
-     public Sprite iDelgado;
-     public Sprite iGrueso;
-     public Sprite laringe;*/
-
     public PlayerProfile playerProfile;
 
     public GameObject[] organosContainer;
@@ -51,14 +44,12 @@ public class IUManager : MonoBehaviour
     void Start()
     {
 
-        // GameManager.Instance.GameOverEvent += ShowGameOver;
+        
         GameManager.Instance.GameOverEvent += ShowGameOver;
         GameManager.Instance.QuizEvent+= ShowQna;
         GameManager.Instance.WinEvent += ShowWin;
 
 
-
-        FilData();
         ShowHUD();
     }
 
@@ -76,6 +67,7 @@ public class IUManager : MonoBehaviour
         OnReduceLiveLevel();
         OnReduceGemaLevel();
         OnFindOrgans(nivelNum);
+
 
     }
 
@@ -155,10 +147,6 @@ public class IUManager : MonoBehaviour
         winPanel.SetActive(false);
     }
 
-    public void FilData()
-    {
-
-    }
 
     public void OnReduceLiveLevel()
     {
@@ -236,6 +224,39 @@ public class IUManager : MonoBehaviour
     public void OnSFxVolumeChange(float sfxVolume)
     {
         audioMixer.SetFloat("SFXVolume", sfxVolume);
+    }
+
+    public void DrawItems()
+    {
+        int numOrganos;
+
+        liveBar.fillAmount = playerProfile.liveLevel;
+        gemaImg.fillAmount = playerProfile.gemaLevel;
+        CleanOrganosContainers();
+
+        switch (playerProfile.level)
+        {
+            case 1:
+                numOrganos = playerProfile.OrganosSD;
+
+                for (int i = 0; i < numOrganos; i++)
+                {
+                    if (playerProfile.oSD[i])
+                        organosContainer[i].SetActive(true);
+                }
+                break;
+            case 2:
+                numOrganos = playerProfile.OrganosSR;
+                for (int i = 0; i < numOrganos; i++)
+                {
+                    if (playerProfile.oSR[i])
+                        organosContainer[i].SetActive(true);
+                }
+                break;
+            default:
+                numOrganos = 0;
+                break;
+        }
     }
 
 }
