@@ -77,7 +77,7 @@ public class IUManager : MonoBehaviour
 
     public void ShowIns()
     {
-        ClearPanels();
+        
         ins1.SetActive(true);
         ins2.SetActive(true);
     }
