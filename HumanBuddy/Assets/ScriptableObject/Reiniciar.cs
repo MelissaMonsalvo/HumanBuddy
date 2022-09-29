@@ -39,7 +39,7 @@ public class Reiniciar : MonoBehaviour
         dt.SaveData();
         personaje.transform.position = inicio.transform.position;
         personaje2.transform.position = inicio.transform.position;
-
+        GameManager.Instance.ChangeState(GameState.PLAYING);
 
     }
 }
