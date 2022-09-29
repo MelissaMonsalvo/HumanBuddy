@@ -15,12 +15,12 @@ public class Dialogo : MonoBehaviour
         "Intestino delgado", 
         "Intestino grueso", 
         "Laringe" };
-    string[] lines = { 
-        "Boca fjdhfhfi",
-        "Estomago fkjsdfs",
-        "Intestino delgado sajdks",
-        "Intestino grueso dsijadias",
-        "Laringe ijjisjd" };
+    string[] lines = {
+        "El proceso digestivo comienza en la boca cuando una persona mastica. Las glándulas salivales producen saliva, un jugo digestivo que humedece los alimentos para transportarlos más fácilmente por el esófago hacia el estómago.",
+        "Las glándulas situadas en el revestimiento del estómago producen ácidos estomacales y enzimas que descomponen químicamente los alimentos. Los músculos del estómago mezclan la comida con estos jugos digestivos.",
+        "El intestino delgado produce un jugo digestivo, el cual se mezcla con la bilis y un jugo pancreático para completar la descomposición química de proteínas, carbohidratos y grasas.",
+        "En el intestino grueso, más agua se transporta desde el tracto gastrointestinal hasta el torrente sanguíneo. Las bacterias en el intestino grueso ayudan a descomponer químicamente los nutrientes restantes y producen vitamina K",
+        "La laringe es el órgano fonador, uno de los órganos que nos permite hablar, ya que contiene las cuerdas vocales, está localizada en el cuello y ayuda a evitar que los alimentos y los líquidos entren a la tráquea" };
     public float textSpeed = 0.1f;
     int index;
 
