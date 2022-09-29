@@ -49,7 +49,7 @@ public class MusicManager : MonoBehaviour
         if (chaseLevel > 0)
         {
             chaseLevel--;
-            musicAudioSource.clip = chaseMusic[chaseLevel];
+            musicAudioSource.clip = chaseMusic[0];
             musicAudioSource.Play();
             
         }
@@ -66,8 +66,12 @@ public class MusicManager : MonoBehaviour
     }
     public void ChaseEventResponse()
     {
-        musicAudioSource.clip = chaseMusic[chaseLevel];
-        musicAudioSource.Play();
+        if (musicAudioSource.clip != chaseMusic[0])
+        {
+         musicAudioSource.clip = chaseMusic[0];
+         musicAudioSource.Play();
+        }
+           
         if (chaseLevel < chaseMaxLevel)
             chaseLevel++;
     }

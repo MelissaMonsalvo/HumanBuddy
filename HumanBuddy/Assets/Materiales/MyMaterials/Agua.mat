@@ -100,6 +100,9 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
+    - _repeticion: 0.25
+    - _t1: -0.008
+    - _t2: 0.04
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Disolvecolor: {r: 1, g: 1, b: 1, a: 0}

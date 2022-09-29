@@ -17,6 +17,9 @@ public class IUManager : MonoBehaviour
     public GameObject settingsPanel;
     public GameObject qnaPanel;
     public GameObject winPanel;
+    public GameObject ins1;
+    public GameObject ins2;
+
 
     public GameObject personaje1;
     public GameObject personaje2;
@@ -51,6 +54,7 @@ public class IUManager : MonoBehaviour
 
 
         ShowHUD();
+        ShowIns();
     }
 
     // Update is called once per frame
@@ -71,6 +75,12 @@ public class IUManager : MonoBehaviour
 
     }
 
+    public void ShowIns()
+    {
+        ClearPanels();
+        ins1.SetActive(true);
+        ins2.SetActive(true);
+    }
     public void ShowHUD()
     {
         ClearPanels();
@@ -145,6 +155,8 @@ public class IUManager : MonoBehaviour
         settingsPanel.SetActive(false);
         qnaPanel.SetActive(false);
         winPanel.SetActive(false);
+        ins1.SetActive(false);
+        ins2.SetActive(false);
     }
 
 

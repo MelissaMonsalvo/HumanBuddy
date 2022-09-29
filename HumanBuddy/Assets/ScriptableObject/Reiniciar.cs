@@ -27,6 +27,7 @@ public class Reiniciar : MonoBehaviour
     {
         playerProfile.oSD = new bool[] { false, false, false, false, false };
         playerProfile.oSR = new bool[] { false, false, false, false, false };
+        playerProfile.liveLevel = 1;
         playerProfile.organosEncontrados = 0;
         playerProfile.organosEncontrados = 0;
         playerProfile.gemaLevel = 1;
