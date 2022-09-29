@@ -4,18 +4,27 @@ using UnityEngine;
 
 public class Organo : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public PlayerProfile playerProfile;
+    string[] organostag = { "boca", "stomago", "laringe", "intestino_grueso" , "intestino_delgado" };
 
-    //Dialogo
-    public Dialogo dialogo;
-    private void OnCollisionEnter(Collision collision)
+    List<string> lista = new List<string>() { "boca", "stomago", "laringe", "intestino_grueso", "intestino_delgado" };
+    void Start()
     {
-        if (collision.gameObject.CompareTag("Player"))
+        int index = lista.IndexOf(this.gameObject.name);
+        if (playerProfile.oSD[index])
         {
-            dialogo.StartDialogue(0);
-            
+            this.gameObject.SetActive(false);
         }
-       
+        else
+        {
+            this.gameObject.SetActive(true);
+        }
     }
-   
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
 }

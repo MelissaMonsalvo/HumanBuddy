@@ -191,7 +191,8 @@ public class ThirdPersonController : MonoBehaviour
 
             }
             saveEvent.Raise();
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
             
         }
 
@@ -200,7 +201,8 @@ public class ThirdPersonController : MonoBehaviour
 
             playerProfile.GemaLevel = 1;
             saveEvent.Raise();
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
         }
         Debug.Log(other.gameObject.name);
 
