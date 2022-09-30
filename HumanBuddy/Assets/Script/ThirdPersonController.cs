@@ -63,7 +63,7 @@ public class ThirdPersonController : MonoBehaviour
         {
      
             playeranimator.SetTrigger("run");
-            velocidad = velocidadCorrer;
+            
         }
         else
         {
@@ -98,7 +98,7 @@ public class ThirdPersonController : MonoBehaviour
 
         //Unico salto
         
-        /*
+        
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             playeranimator.SetTrigger("jump");
@@ -107,19 +107,20 @@ public class ThirdPersonController : MonoBehaviour
             transform.Translate(0, velocity.y * Time.deltaTime, 0);
 
 
-        }*/
+        }
         
         //salto multiple
+        /*
         if (Input.GetKeyDown(KeyCode.Space))
         {
             
             playeranimator.SetTrigger("jump");
-            //velocidad = velocidadCorrer;
+            velocidad = velocidadCorrer;
             velocity.y = Mathf.Sqrt(3 * -2f * Gravedad);
             transform.Translate(0, velocity.y * Time.deltaTime, 0);
 
 
-        }
+        }*/
 
 
         //Agarrar

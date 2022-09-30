@@ -60,12 +60,13 @@ public class IUManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Input.GetKeyDown(KeyCode.O))
             playerProfile.ReduceLiveLevel();
         if (Input.GetKeyDown(KeyCode.P))
             playerProfile.ReduceGemaLevel();
         if (Input.GetKeyDown(KeyCode.T))
-            playerProfile.AddOrgano(nivelNum, organoNum);
+            playerProfile.AddOrgano(nivelNum, organoNum);*/
 
 
         OnReduceLiveLevel();
