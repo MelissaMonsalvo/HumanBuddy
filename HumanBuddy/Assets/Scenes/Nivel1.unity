@@ -31141,7 +31141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f0a8cecaed75014493904a00c9e709d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadCorrer: 3
+  velocidadCorrer: 0
   velocidadCaminar: 2.5
   rotationSpeed: 100
   obj: {fileID: 0}
